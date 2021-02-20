@@ -1,0 +1,12 @@
+{
+  "name": "jsestak/328/midterm",
+  "authors": [
+    {
+      "name":"Jessica Sestak",
+      "email": "jsestak2@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
