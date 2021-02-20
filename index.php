@@ -31,16 +31,12 @@ $f3->route('GET|POST /survey', function($f3){
 
 $f3->route('POST /summary', function(){
     //add data from form 2 to session array
-    if(isset($_POST['petName'])){
-        $_SESSION['petName'] = $_POST['petName'];
+    if(isset($_POST['name'])){
+        $_SESSION['name'] = $_POST['name'];
     }
 
-    if(isset($_POST['size'])){
-        $_SESSION['size'] = $_POST['size'];
-    }
-
-    if(isset($_POST['accessory'])) {
-        $_SESSION['accessory'] = implode(", ", $_POST['accessory']);
+    if(isset($_POST['midterm'])) {
+        $_SESSION['midterm'] = implode(", ", $_POST['midterm']);
     }
 
     //display a view
